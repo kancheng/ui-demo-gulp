@@ -1,23 +1,21 @@
-$color: #00cc99;
+@import 'reset';
+@import 'base';
+@import 'various';
+@import 'grid';
+@import 'mixin';
+@import 'layout';
+@import 'index';
+@import 'optical';
+@import 'sunglasses';
+@import 'location';
+@import 'map';
+@import 'question';
+@import 'blog';
+@import 'special';
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
+// *{
+// 	outline: 1px solid black;
+// }
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+

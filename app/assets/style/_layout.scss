@@ -1,0 +1,216 @@
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+header {
+  background-color: #AA0601;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+}
+
+.header-menu {
+  display: flex;
+  font-size: 20px;
+}
+
+.header-menu li {
+  padding: 25px 32px; 
+}
+
+.header-menu li a {
+  color: white;
+}
+
+.header-menu li:hover {
+  background-color: #ca130d; 
+}
+
+footer {
+  background-color: #AA0601; 
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid white; 
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  padding-bottom: 36px;
+}
+.footer-menu li {
+  padding-right: 48px; 
+}
+.footer-menu a {
+  color: white;
+  font-size: 16px;
+}
+.footer-menu a:hover {
+  opacity: 0.6; 
+}
+
+.icon {
+  display: flex;
+}
+.icon img {
+  max-width: 48px;
+}
+.icon a {
+  display: block;
+}
+
+.icon a:hover {
+  opacity: 0.8; 
+}
+
+.ml-32 {
+  margin-left: 32px;
+}
+
+.call {
+  color: white;
+}
+
+.mail {
+  color: white;
+}
+
+.tel {
+  font-size: 36px;
+}
+
+.tel span {
+  font-size: 36px;
+  padding-right: 22px;
+}
+.tel a {
+  color: white;
+}
+
+.tel a:hover {
+  opacity: 0.6;
+}
+
+.copyright {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.copyright a:hover {
+  opacity: 0.6; 
+}
+
+.service-footer {
+  display: flex;
+}
+
+.service-footer a {
+  color: white;
+}
+
+.pr-48 {
+  padding-right: 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .wrap {
+    flex-direction: column;
+    padding-right: 0;
+    padding-left: 0; 
+  }
+
+  .logo {
+    padding: 12px 0; 
+  }
+
+  .tel {
+    font-size: 16px;
+  }
+
+  .tel span {
+    font-size: 16px;
+    padding-right: 11px;
+  }
+
+  .header-menu {
+    width: 100%;
+    flex-wrap: wrap; 
+  }
+
+  .header-menu li {
+    width: 50%;
+    padding: 12px 0;
+    text-align: center;
+    border-top: 1px solid white;
+    border-right: 1px solid #FFF; 
+  }
+
+  .header-menu a {
+    font-size: 16px;
+    display: block;
+    padding: 12px 0;
+  }
+
+  .nav {
+    padding: 24px 0; 
+  }
+
+  .footer-menu {
+    display: none;
+  }
+
+  .icon li {
+    margin-left: 8px; 
+  }
+
+  .icon img {
+    max-width: 24px;
+  }
+
+  .tel {
+    font-size: 16px;
+  }
+
+  .tel span {
+    font-size: 16px;
+    padding-right: 11px;
+  }
+
+  .copyright {
+    flex-direction: column;
+    padding-top: 16px; 
+  }
+
+  .copyright p {
+    font-size: 16px;
+  }
+
+  .service-footer {
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+  }
+
+  .service-footer li {
+    padding-top: 8px;
+  }
+}
+
